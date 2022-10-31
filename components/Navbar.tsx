@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
+import { FaDiscord, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Navbar = () => {
   // state be like: false
@@ -105,36 +105,16 @@ const Navbar = () => {
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                   <div className="rounded-full shadow-lg shadow-black cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Image
-                      src="/holoFace.png"
-                      alt="Holo"
-                      width="60"
-                      height="60"
-                    />
+                    <FaLinkedinIn />
                   </div>
                   <div className="rounded-full shadow-lg shadow-black cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Image
-                      src="/holoFace.png"
-                      alt="Holo"
-                      width="60"
-                      height="60"
-                    />
+                    <FaGithub />
                   </div>
                   <div className="rounded-full shadow-lg shadow-black cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Image
-                      src="/holoFace.png"
-                      alt="Holo"
-                      width="60"
-                      height="60"
-                    />
+                    <FaDiscord />
                   </div>
                   <div className="rounded-full shadow-lg shadow-black cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Image
-                      src="/holoFace.png"
-                      alt="Holo"
-                      width="60"
-                      height="60"
-                    />
+                    <AiOutlineMail />
                   </div>
                 </div>
               </div>
