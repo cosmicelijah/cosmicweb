@@ -6,7 +6,7 @@ import { FaDiscord, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div className="w-full h-screen py-40 text-center">
       <div className="max-w-[1240px] w-full h-screen mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase tracking-widest py-2 text-gray-400">
